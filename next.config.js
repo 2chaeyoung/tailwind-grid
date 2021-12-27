@@ -5,5 +5,5 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  assetPrefix: !debug ? '/tailwind-form/' : '',
+  assetPrefix: !debug ? '/tailwind-grid/' : '',
 }
