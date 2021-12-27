@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],    
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '200': '13rem',
+      }      
+    },
   },
   plugins: [TailWindcssForm],
 }
